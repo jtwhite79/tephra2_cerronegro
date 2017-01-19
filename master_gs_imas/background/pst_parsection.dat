@@ -1,0 +1,97 @@
+* parameter groups
+median_gra           relative                        0.01               0 switch                             2 parabolic            
+ws_b                 relative                        0.01               0 switch                             2 parabolic            
+fall_time_           relative                        0.01               0 switch                             2 parabolic            
+plume_heig           relative                        0.01               0 switch                             2 parabolic            
+beta                 relative                        0.01               0 switch                             2 parabolic            
+diffusion_           relative                        0.01               0 switch                             2 parabolic            
+wd_b                 relative                        0.01               0 switch                             2 parabolic            
+wd_a                 relative                        0.01               0 switch                             2 parabolic            
+ws_a                 relative                        0.01               0 switch                             2 parabolic            
+std_grains           relative                        0.01               0 switch                             2 parabolic            
+alpha                relative                        0.01               0 switch                             2 parabolic            
+eddy_const           relative                        0.01               0 switch                             2 parabolic            
+eruption_m           relative                        0.01               0 switch                             2 parabolic 
+* parameter data
+median_ga            none                  relative                         0.1              -3               3 median_gra                         1               0          1 
+median_gb            none                 relative                         1.5              -3               3 median_gra                         1               0          1 
+ws_b_00               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_01               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_02               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_03               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_04               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_05               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_06               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_07               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_08               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_09               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_10               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_11               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_12               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_13               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_14               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+ws_b_15               log                 factor                             1           1E-10              20 ws_b                               1               0          1 
+fall_tima             log                   factor                         3000           1000            7000 fall_time_                         1               0          1 
+fall_timb             log                 factor                           3000           1000            7000 fall_time_                         1               0          1 
+plume_hea             log                   factor                         9000           3000           15000 plume_heig                         1               0          1 
+plume_heb            log                 factor                            5000           3000           15000 plume_heig                         1               0          1 
+betaa                log                   factor                           1.0           0.01             100 beta                               1               0          1 
+betab                 log                 factor                            1.0           0.01             100 beta                               1               0          1 
+diffusioa            log                   factor                          1000            100           10000 diffusion_                         1               0          1 
+diffusiob            log                factor                          1000            100           10000 diffusion_                         1               0          1 
+wd_b_00               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_01               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_02               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_03               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_04               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_05               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_06               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_07               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_08               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_09               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_10               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_11               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_12               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_13               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_14               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_b_15               log                 factor                            262            240             280 wd_b                               1               0          1 
+wd_a_00              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_01              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_02              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_03              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_04              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_05              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_06              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_07              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_08              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_09              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_10              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_11              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_12              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_13              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_14              log                   factor                           255            240             280 wd_a                               1               0          1 
+wd_a_15              log                   factor                           255            240             280 wd_a                               1               0          1 
+ws_a_00              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_01              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_02              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_03              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_04              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_05              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_06              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_07              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_08              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_09              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_10              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_11              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_12              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_13              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_14              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+ws_a_15              log                   factor                             2          1E-10              20 ws_a                               1               0          1 
+std_graia            log                   factor                           2.5          0.001               5 std_grains                         1               0          1 
+std_graib            log                   factor                           1.5          0.001               5 std_grains                         1               0          1 
+alphaa               log                   factor                           3.0           0.01              30 alpha                              1               0          1 
+alphab               log                   factor                           3.0           0.01              30 alpha                              1               0          1 
+eddy_cona            log                   factor                         0.005          0.001           0.009 eddy_const                         1               0          1 
+eddy_conb            log                   factor                         0.005          0.001           0.009 eddy_const                         1               0          1 
+eruptiona            log                   factor                       1.5E+11          1E+09           5E+11 eruption_m                         1               0          1 
+eruptionb            log                   factor                       1.5E+10          1E+09           5E+11 eruption_m                         1               0          1 
